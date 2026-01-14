@@ -1,15 +1,9 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "lib/main.dart",
-      "use": "@vercel/flutter"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+    "version": 2,
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "/index.html"
+        }
+    ]
 }
